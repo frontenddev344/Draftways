@@ -231,6 +231,9 @@
     margin: inherit;
     margin: 10px 0;
   }
+  .howplay-content h3 {
+    font-size: 34px;
+  }
 }
 @media screen and (max-width: 575px) {
   .homebanner-section {
@@ -249,6 +252,9 @@
     text-align: justify;
   }
   .locallanguage-text h3 {
+    font-size: 27px;
+  }
+  .howplay-content h3 {
     font-size: 27px;
   }
 }

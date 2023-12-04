@@ -288,6 +288,10 @@
         margin: inherit;
         margin: 10px 0;
     }
+
+    .howplay-content h3 {
+        font-size: 34px;
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -317,6 +321,9 @@
         font-size: 27px;
     }
 
+    .howplay-content h3 {
+        font-size: 27px;
+    }
 }
 
 /*# sourceMappingURL=responsive.css.map */
