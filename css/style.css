@@ -338,7 +338,11 @@ p.icon img {
   border: 1px solid #cfcfcf;
   padding: 2rem 2rem;
   background: transparent;
-  color: #fff;
+  color: grey;
+}
+
+.input-control::placeholder {
+  color: grey;
 }
 
 textarea.input-control {
