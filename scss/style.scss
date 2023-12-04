@@ -388,10 +388,11 @@ section.contact__text {
     &-picture {
         display: flex;
         justify-content: center;
-        padding-top: 50px;
+        padding-top: 30px;
+     gap: 20px;
 
         img {
-            max-width: 350px;
+            max-width: 55px;
         }
     }
 

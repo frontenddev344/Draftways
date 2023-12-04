@@ -421,10 +421,11 @@ section.contact__text {
 .footer-picture {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 30px;
+  gap: 20px;
 }
 .footer-picture img {
-  max-width: 350px;
+  max-width: 55px;
 }
 
 /*howplay-content-css-start*/
