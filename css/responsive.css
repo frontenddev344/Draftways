@@ -257,6 +257,15 @@
   .howplay-content h3 {
     font-size: 27px;
   }
+  .fantasy-text span {
+    line-height: 17px;
+  }
+  .fantasy-text h3::after {
+    content: none;
+  }
+  .fantasy-text h3 {
+    margin: 20px 0;
+  }
 }
 
 

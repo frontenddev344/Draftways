@@ -88,6 +88,11 @@ input#email {
     background: $clr-yellow;
     color: #000000;
     padding-left: 50px;
+
+    &:hover {
+        background-color: gray;
+        border: 1px solid gray;
+    }
 }
 
 input#email::placeholder {

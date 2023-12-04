@@ -166,6 +166,10 @@ input#email {
   color: #000000;
   padding-left: 50px;
 }
+input#email:hover {
+  background-color: gray;
+  border: 1px solid gray;
+}
 
 input#email::placeholder {
   color: #fff;
