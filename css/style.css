@@ -165,6 +165,7 @@ input#email {
   background: #ffd523;
   color: #000000;
   padding-left: 50px;
+  cursor: pointer;
 }
 input#email:hover {
   background-color: gray;

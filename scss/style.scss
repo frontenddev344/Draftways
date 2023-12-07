@@ -88,6 +88,7 @@ input#email {
     background: $clr-yellow;
     color: #000000;
     padding-left: 50px;
+    cursor: pointer;
 
     &:hover {
         background-color: gray;
