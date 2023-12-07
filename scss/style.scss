@@ -65,13 +65,14 @@ input#name {
     display: block;
     width: 100%;
     height: 5rem;
-    max-width: 50%;
-    border: 1px solid gray;
+    border: 1px solid #cfcfcf;
     padding: 2rem 2rem;
     background: transparent;
     color: #000000;
 }
-
+.form-group.space > input#name {
+    width: 50%;
+}
 .form-group.space {
     text-align: right;
     display: flex;
