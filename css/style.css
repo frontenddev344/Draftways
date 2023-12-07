@@ -240,6 +240,11 @@ p.icon img {
 .leaderboard-rating img {
   max-width: 60px;
   margin: 0 auto;
+  transition: 1s ease;
+}
+.leaderboard-rating img:hover {
+  transform: scale(1.2);
+  transition: 1s ease;
 }
 
 .fantasy-picture {
