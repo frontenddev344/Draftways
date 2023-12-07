@@ -262,12 +262,14 @@
   }
   .fantasy-text span {
     line-height: 17px;
+    font-size: 27px;
   }
   .fantasy-text h3::after {
     content: none;
   }
   .fantasy-text h3 {
-    margin: 20px 0;
+    margin: 20px 0 0 0;
+    font-size: 27px;
   }
 }
 
