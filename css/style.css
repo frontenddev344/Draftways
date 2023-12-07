@@ -226,6 +226,7 @@ p.icon img {
   text-align: center;
   max-width: 292px;
   margin: 0 auto;
+  border-radius: 17px;
 }
 .leaderboard-rating h4 {
   color: #fff;
@@ -354,7 +355,7 @@ textarea.input-control {
   height: auto;
 }
 
-.form-group .submit-btn {
+a.submit {
   background: orange;
   border: 1px solid orange;
   transition: all 0.2s linear;
@@ -365,7 +366,7 @@ textarea.input-control {
   text-transform: capitalize;
   text-transform: uppercase;
 }
-.form-group .submit-btn:hover {
+a.submit:hover {
   color: #ffd523;
   border: 1px solid #ffd523;
   background-color: transparent;
