@@ -230,8 +230,8 @@ p.icon img {
   transition: 1s ease;
   opacity: 1;
 }
-.leaderboard-rating:hover:hover {
-  border-radius: 50%;
+.leaderboard-rating:hover {
+  opacity: 0.5;
   transition: 1s ease;
 }
 .leaderboard-rating h4 {
@@ -247,6 +247,9 @@ p.icon img {
   max-width: 60px;
   margin: 0 auto;
   transition: 1s ease;
+}
+.leaderboard-rating img:hover {
+  transform: translateY(-10px);
 }
 
 .fantasy-picture {
