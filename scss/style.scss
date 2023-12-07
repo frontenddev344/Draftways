@@ -78,22 +78,33 @@ input#name {
     justify-content: end;
 }
 
-input#email {
-    display: block;
-    width: 100%;
-    height: 5rem;
-    max-width: 50%;
-    border: 1px solid $clr-yellow;
-    padding: 2rem 2rem;
-    background: $clr-yellow;
+img.img-fluid.submiticon {
+    height: 25px;
+    width: 25px;
     color: #000000;
-    padding-left: 50px;
     cursor: pointer;
+    margin-right: 5px;
+
+}
+
+a.btnsubmit {
+    background: $clr-yellow;
+    padding: 11px 36px;
+    border: 1px solid $clr-yellow;
+    display: inline-block;
+    color: $clr-white;
+    font-size: 17px;
+    text-transform: uppercase;
 
     &:hover {
         background-color: gray;
         border: 1px solid gray;
     }
+}
+
+.form-group.new>a.btnsubmit {
+    display: inline-block;
+
 }
 
 input#email::placeholder {
@@ -407,7 +418,7 @@ section.contact__text {
         gap: 20px;
 
         img {
-            max-width: 55px;
+            max-width: 45px;
         }
     }
 
