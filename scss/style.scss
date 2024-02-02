@@ -547,7 +547,7 @@ img.encrypted-img {
 
 .mobile-view-design .warapper {
     background: rgba(215, 217, 219, 0);
-    border-bottom: 4px solid $clr-purple;
+    border-bottom: 4px solid #f7f0dd;
     border-radius: 6px;
     margin: 30px 0;
 }
@@ -557,7 +557,7 @@ img.encrypted-img {
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    background-color: #ffd52369;
+    background-color: #f7f0dd;
     padding: 10px;
     position: relative;
     z-index: 1;
@@ -569,7 +569,7 @@ img.encrypted-img {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #4e1693c7;
+    background: #06130fc4;
     position: absolute;
     clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
     width: 55%;
@@ -592,7 +592,7 @@ img.encrypted-img {
 
 .mobile-view-design .warapper .main_box .one_o h6.heading_main {
     font-size: 23px !important;
-    color: #744496;
+    color: #3e473f;
     font-weight: 600;
 }
 
@@ -643,7 +643,7 @@ img.encrypted-img {
     letter-spacing: 1px;
     font-weight: 600;
     text-transform: uppercase;
-    background: #744496;
+    background: #06130fc4;
     padding: 16px 44px;
     text-align: center;
     border-radius: 6px;
