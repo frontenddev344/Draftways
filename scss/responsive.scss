@@ -298,9 +298,11 @@
     .homebanner-section {
         height: 450px;
     }
-    .content-wrap h2{
+
+    .content-wrap h2 {
         font-size: 27px;
     }
+
     .telephonic-info {
         padding: 30px 0;
     }
@@ -337,8 +339,31 @@
     }
 
     .fantasy-text h3 {
-        margin: 20px 0  0 0;
+        margin: 20px 0 0 0;
         font-size: 27px;
+    }
+
+    .desktop-version {
+        display: none;
+    }
+
+    section.home-main.mobile-table {
+        display: block;
+    }
+
+
+    .mobile-view-design.entertainment {
+        display: block;
+    }
+
+    .mobile-view-design p {
+        text-align: left !important;
+    }
+
+    p.rated-star {
+        color: #fdbb4f;
+        font-size: 14px !important;
+        margin-bottom: 0 !important;
     }
 
 }
