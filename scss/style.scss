@@ -468,95 +468,236 @@ section.privacy-policy {
 /*howplay-content-css-end*/
 
 /*betting-css-start*/
-.abt-cols h2 {
-    margin-top: 30px;
-    font-size: 20px;
-    color: #4e1693;
-}
-
-.table.brand-table-new {
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 1rem;
-    background-color: #fff;
-}
-
-.brand-table table tr td {
-    padding: 30px 15px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: top;
-    border-top: 1px solid #dee2e6;
-}
-
-.mob-pro-score-main {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
+/*mobile-view-design*/
+.bgi-casino {
+    background: url(../images/sportbanner.avif);
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 220px;
+    z-index: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-span.mob-pro-score-main strong {
-    font-size: 32px;
-    font-weight: 600;
-    margin-left: 15px;
-}
-
-.rateit-now {
-    text-align: center;
-    display: block;
-    font-size: 14px;
-    font-weight: 500;
-    color: #8b8b8b;
-}
-
-.stars-main.rate {
-    text-align: center;
-    margin-top: 5px;
-}
-
-.rated-star i {
-    color: #fb0;
-    font-size: 16px;
-}
-
-.first-bonus {
-    display: block;
-    text-align: center;
-    font-weight: 600;
-    font-size: 21px;
-    line-height: normal;
-    color: #4e1693;
-}
-
-.second-bonus {
-    display: block;
-    text-align: center;
-    font-size: 15px;
-    color: #000;
-    font-weight: 400;
-}
-
-a.sign {
-    background: orange;
-    color: #fff;
-    height: 50px;
-    display: inline-block;
-    line-height: 50px;
+.bgi-casino::after {
+    content: "";
+    position: absolute;
+    inset: 0;
     width: 100%;
-    max-width: 120px;
-    border-radius: 4px;
-    font-size: 16px;
-    text-align: center;
-    margin: 0 auto;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.56);
+    z-index: -1;
 }
 
-section.home-main.mobile-table {
+.main-rate-star p.rated-star:nth-child(3) {
+    font-size: 19px !important;
+}
+
+.bgi-casino span {
+    color: #d08a38;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.beste {
+    font-size: 25px !important;
+    font-weight: 600;
+    color: #fff;
+    max-width: 220px;
+    width: 100%;
+}
+
+.encrypted {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.encrypted p {
+    color: #fff !important;
+    font-size: 14px;
+    margin: 0 2px 0 0;
+}
+
+.myceltwo {
+    margin: 0 0 0 10px;
+}
+
+.mycelonw .main-rate-star {
+    display: flex;
+}
+
+img.encrypted-img {
+    max-width: 20px;
+    margin: 0 4px 0 0;
+}
+
+.mobile-view-design {
+    background: #f4f4f4;
+    padding-bottom: 28px;
     display: none;
 }
 
+.mobile-view-design .warapper {
+    background: rgba(215, 217, 219, 0);
+    border-bottom: 4px solid $clr-purple;
+    border-radius: 6px;
+    margin: 30px 0;
+}
+
+.mobile-view-design .warapper .main_box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: #ffd523;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.mobile-view-design .warapper .main_box::after {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $clr-purple;
+    position: absolute;
+    clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+    width: 55%;
+    z-index: -1;
+}
+
+.mobile-view-design .warapper .main_box .beting_logo {
+    width: 55%;
+}
+
+.mobile-view-design .warapper .main_box .beting_logo img {
+    width: 70%;
+    height: 130px;
+    object-fit: contain;
+}
+
+.mobile-view-design .warapper .main_box .one_o {
+    width: 45%;
+}
+
+.mobile-view-design .warapper .main_box .one_o h6.heading_main {
+    font-size: 23px !important;
+    color: #1a385a;
+    font-weight: 600;
+}
+
+.mobile-view-design .warapper .main_box .one_o h6.heading_main .one_o p {
+    color: #000;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.mobile-view-design .start_line {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 1px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    background: #ffffff;
+    margin: 17px 0;
+}
+
+.mobile-view-design .start_line p.rating-text {
+    padding-bottom: 4px !important;
+    margin: 0px !important;
+    margin-top: 13px !important;
+}
+
+.mobile-view-design .start_line .notpad {
+    padding: 0 9px;
+}
+
+.mobile-view-design .start_line .notpad p {
+    padding-bottom: 0;
+}
+
+.mobile-view-design .start_line .main-rate-star {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.mobile-view-design .start_line .main-rate-star p.rated-star {
+    color: #fdbb4f;
+    font-size: 14px !important;
+}
+
+.mobile-view-design .awesome a {
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: $clr-purple;
+    padding: 16px 44px;
+    text-align: center;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 37px;
+}
+
+
+.mobile-view-design p {
+    color: #fff;
+    font-size: 17px;
+}
+
+.one_o p {
+    line-height: 22px;
+    font-size: 20 px;
+    color: #fff;
+}
+
+
+p.rating-text {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.rating-text b {
+    color: #fff;
+    font-size: 27px;
+}
+
+.mobile-view-design p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.text_auality p {
+    color: #000;
+}
+
+.rate.notpad {
+    margin-right: 10px;
+}
+
+.mycel {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 10px;
+}
+
+.main-rate-star {
+    display: flex;
+
+}
+
+/*mobile-view-design*/
 /*betting-css-end*/
 
 
