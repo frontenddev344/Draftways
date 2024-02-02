@@ -689,8 +689,9 @@ p.rating-text {
 }
 
 .mobile-view-design p {
-  color: #4e1693;
+  color: #0C0B0B;
   margin-bottom: 0;
+  font-weight: 500;
 }
 
 .text_auality p {
