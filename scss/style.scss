@@ -673,9 +673,13 @@ p.rating-text {
 }
 
 .mobile-view-design p {
-    color: $clr-black;
+    color: $clr-white;
     margin-bottom: 0;
     font-weight: 500;
+}
+
+.one_o p {
+    color: black !important;
 }
 
 .text_auality p {
