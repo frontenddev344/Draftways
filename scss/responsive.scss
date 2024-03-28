@@ -365,7 +365,12 @@
         margin: 20px 0 0 0;
         font-size: 27px;
     }
-
+    .desktop-version {
+        display: block;
+    }
+    .mobile-view-design.entertainment {
+        display: none;
+    }
 }
 
 /*# sourceMappingURL=responsive.css.map */
